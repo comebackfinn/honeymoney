@@ -22,9 +22,6 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
         
-        {/* Google Search Console 검증 */}
-        <meta name="google-site-verification" content="aqI7WST6ju5sljPCQ1pUaQP2WCDJ9qEMCNmQV_NBPG4" />
-        
         {/* PWA 메타 태그 */}
         <meta name="theme-color" content="#fde047" />
         <meta name="apple-mobile-web-app-capable" content="yes" />

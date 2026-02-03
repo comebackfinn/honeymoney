@@ -3,6 +3,9 @@ export const metadata = {
   description: '달달하게 계산되는 실업급여 계산기. 2026년 기준으로 정확한 실업급여를 계산하세요.',
   keywords: '실업급여,실업급여계산,계산기,2026,고용보험,퇴사',
   authors: [{ name: '시럽급여' }],
+  verification: {
+    google: 'aqI7WST6ju5sljPCQ1pUaQP2WCDJ9qEMCNmQV_NBPG4',
+  },
   openGraph: {
     title: '시럽급여(HoneyMoney) - 2026년 실업급여 계산기',
     description: '달달하게 계산되는 실업급여. 정확한 지급액을 미리 계산해보세요.',
