@@ -11,6 +11,14 @@ export default function AdBanner({ position = 'top' }) {
     }
   }, []);
 
+  const slotIds = {
+    top: '4808360428',
+    middle: '3495278752',
+    bottom: '7582262800',
+  };
+
+  const currentSlot = slotIds[position] || slotIds.top;
+
   return (
     <div className="w-full my-6">
       <ins
@@ -22,7 +30,7 @@ export default function AdBanner({ position = 'top' }) {
         data-ad-layout="in-article"
         data-ad-format="fluid"
         data-ad-client="ca-pub-9991254411797769"
-        data-ad-slot="1234567890"
+        data-ad-slot={currentSlot}
       ></ins>
     </div>
   );
