@@ -43,13 +43,13 @@ export default function Page() {
       <header className="bg-gradient-to-r from-honey-500 to-bee text-white py-8 sm:py-12 shadow-lg">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <div className="text-5xl sm:text-6xl mb-4">🍯🐝</div>
-          <h1 className="text-3xl sm:text-4xl font-bold mb-2" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>
+          <h1 className="text-3xl sm:text-4xl font-bold mb-2" style={{WebkitTextStroke: '1px black', textShadow: '-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000, 0px -2px 0 #000, 0px 2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000'}}>
             시럽급여
           </h1>
-          <h2 className="text-lg sm:text-xl font-light" style={{textShadow: '1px 1px 2px rgba(0,0,0,0.6)'}}>
+          <h2 className="text-lg sm:text-xl font-light" style={{WebkitTextStroke: '0.5px black', textShadow: '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000'}}>
             달달하게 계산되는 실업급여
           </h2>
-          <p className="text-sm sm:text-base mt-4 opacity-90" style={{textShadow: '1px 1px 2px rgba(0,0,0,0.6)'}}>
+          <p className="text-sm sm:text-base mt-4 opacity-90" style={{WebkitTextStroke: '0.5px black', textShadow: '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000'}}>
             2026년 기준 실업급여 계산기
           </p>
         </div>
