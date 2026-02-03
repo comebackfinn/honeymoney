@@ -1,1 +1,25 @@
-/* 간단한 텍스트 기반 favicon - 사용자는 실제 이미지로 교체 권장 */
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <!-- 배경 -->
+  <rect width="192" height="192" fill="#fffef5" rx="45"/>
+  
+  <!-- 꿀 드롭 모양 -->
+  <defs>
+    <linearGradient id="honeyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff5bf;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f4d535;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 큰 꿀 드롭 -->
+  <path d="M 96 50 C 110 40 125 50 125 70 C 125 100 96 140 96 140 C 96 140 67 100 67 70 C 67 50 82 40 96 50 Z" 
+        fill="url(#honeyGradient)" stroke="#dab800" stroke-width="2"/>
+  
+  <!-- 작은 꿀 드롭 -->
+  <path d="M 145 95 C 152 88 160 93 160 103 C 160 120 145 140 145 140 C 145 140 130 120 130 103 C 130 93 138 88 145 95 Z" 
+        fill="url(#honeyGradient)" stroke="#dab800" stroke-width="1.5" opacity="0.8"/>
+  
+  <!-- 꿀벌 (심플) -->
+  <circle cx="96" cy="75" r="8" fill="#f59e0b"/>
+  <ellipse cx="88" cy="75" rx="4" ry="6" fill="#ffc107"/>
+  <ellipse cx="104" cy="75" rx="4" ry="6" fill="#ffc107"/>
+</svg>
