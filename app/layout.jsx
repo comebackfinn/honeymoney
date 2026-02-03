@@ -22,6 +22,9 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
         
+        {/* 검색엔진 인증 메타 태그 */}
+        <meta name="naver-site-verification" content="359c6ad181b780d69c5846ebdd1a22a52bed7ba1" />
+        
         {/* PWA 메타 태그 */}
         <meta name="theme-color" content="#fde047" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
