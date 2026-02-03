@@ -5,6 +5,7 @@ export const metadata = {
   authors: [{ name: '시럽급여' }],
   verification: {
     google: 'aqI7WST6ju5sljPCQ1pUaQP2WCDJ9qEMCNmQV_NBPG4',
+    googleAdSense: 'ca-pub-9991254411797769',
   },
   openGraph: {
     title: '시럽급여(HoneyMoney) - 2026년 실업급여 계산기',
