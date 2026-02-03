@@ -43,13 +43,13 @@ export default function Page() {
       <header className="bg-gradient-to-r from-honey-500 to-bee text-white py-8 sm:py-12 shadow-lg">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <div className="text-5xl sm:text-6xl mb-4">🍯🐝</div>
-          <h1 className="text-3xl sm:text-4xl font-bold mb-2">
+          <h1 className="text-3xl sm:text-4xl font-bold mb-2" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>
             시럽급여
           </h1>
-          <h2 className="text-lg sm:text-xl font-light">
+          <h2 className="text-lg sm:text-xl font-light" style={{textShadow: '1px 1px 2px rgba(0,0,0,0.6)'}}>
             달달하게 계산되는 실업급여
           </h2>
-          <p className="text-sm sm:text-base mt-4 opacity-90">
+          <p className="text-sm sm:text-base mt-4 opacity-90" style={{textShadow: '1px 1px 2px rgba(0,0,0,0.6)'}}>
             2026년 기준 실업급여 계산기
           </p>
         </div>
@@ -103,7 +103,7 @@ export default function Page() {
                   </h4>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>고용보험 가입기간 최소 6개월 이상</li>
-                    <li>비자발적 퇴사 (회사 폐업, 정리해고 등)</li>
+                    <li className="text-red-600 font-bold">⚠️ 비자발적 퇴사 (회사 폐업, 정리해고 등) - 필수 조건!</li>
                     <li>이직 후 12개월 이내 신청</li>
                   </ul>
                 </div>
