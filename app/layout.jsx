@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9991254411797769"
           crossOrigin="anonymous"
-        />
+        ></script>
         
         {/* Google Fonts for better typography */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
