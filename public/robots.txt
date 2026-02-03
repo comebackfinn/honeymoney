@@ -5,4 +5,5 @@ Disallow: /private
 
 Sitemap: https://honeymoney.netlify.app/sitemap.xml
 
+#Naver Search Advisor Verification: 359c6ad181b780d69c5846ebdd1a22a52bed7ba1
 #DaumWebMasterTool:5eca054182c2b44c6f2e5a57ed05d6e24b6e25a25cf5704db1db77a15bcbf1ea:59ns42XfloqnbPOn+FHuCA==
