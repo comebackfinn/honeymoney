@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         {/* 추가 메타 태그 */}
         <meta name="mobile-web-app-capable" content="yes" />
         <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/icon-192x192.png" />
+        <link rel="apple-touch-icon" href="/icon.svg" />
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className="bg-gradient-to-br from-honey-50 to-honey-100">
