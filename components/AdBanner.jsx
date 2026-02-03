@@ -1,19 +1,29 @@
 'use client';
 
+import { useEffect } from 'react';
+
 export default function AdBanner({ position = 'top' }) {
+  useEffect(() => {
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (err) {
+      console.log('AdSense error:', err);
+    }
+  }, []);
+
   return (
     <div className="w-full my-6">
-      <div className="ad-container" style={{ minHeight: '280px' }}>
-        <div className="ad-placeholder">
-          <p className="font-semibold text-honey-700 mb-2">광고 영역</p>
-          <p className="text-xs text-gray-500">
-            Google AdSense 스크립트를 삽입하여 광고가 표시됩니다.
-          </p>
-          <p className="text-xs text-gray-400 mt-2">
-            (위치: {position === 'top' ? '상단' : position === 'middle' ? '중단' : '하단'})
-          </p>
-        </div>
-      </div>
+      <ins
+        className="adsbygoogle"
+        style={{
+          display: 'block',
+          textAlign: 'center',
+        }}
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-9991254411797769"
+        data-ad-slot="1234567890"
+      ></ins>
     </div>
   );
 }

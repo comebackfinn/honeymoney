@@ -1,24 +1,32 @@
 'use client';
 
+import { useEffect } from 'react';
+
 export default function AdInContent({ width = 'auto' }) {
+  useEffect(() => {
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (err) {
+      console.log('AdSense error:', err);
+    }
+  }, []);
+
   return (
-    <div
-      className="my-4 mx-auto"
-      style={{
-        width: width === 'auto' ? '100%' : width,
-        maxWidth: '100%',
-        minHeight: '250px',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-      }}
-    >
-      <div className="ad-container">
-        <div className="ad-placeholder text-center">
-          <p className="font-semibold text-honey-700 mb-1">광고</p>
-          <p className="text-xs text-gray-500">인-콘텐츠 광고 영역</p>
-        </div>
-      </div>
+    <div className="w-full my-6">
+      <ins
+        className="adsbygoogle"
+        style={{
+          display: 'block',
+          textAlign: 'center',
+          width: '100%',
+          maxWidth: '728px',
+          margin: '0 auto',
+        }}
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-9991254411797769"
+        data-ad-slot="1234567890"
+      ></ins>
     </div>
   );
 }
