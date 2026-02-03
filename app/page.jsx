@@ -101,8 +101,12 @@ export default function Page() {
                   <h4 className="font-bold text-red-900 mb-2">
                     ⚠️ 필수 수급 조건
                   </h4>
+                  <div className="bg-red-100 border-2 border-red-500 p-3 rounded mb-3">
+                    <p className="text-red-700 font-bold text-base">
+                      🚨 회사 폐업, 정리해고, 권고사직 등 비자발적 퇴사인 경우만 수급 가능합니다!
+                    </p>
+                  </div>
                   <ul className="list-disc list-inside space-y-1">
-                    <li className="text-red-700 font-bold">회사 폐업, 정리해고, 권고사직 등 비자발적 퇴사인 경우만 수급 가능합니다!</li>
                     <li className="text-gray-600">고용보험 가입기간 최소 6개월 이상</li>
                     <li className="text-gray-600">이직 후 12개월 이내 신청</li>
                   </ul>
