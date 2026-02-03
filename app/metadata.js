@@ -6,6 +6,10 @@ export const metadata = {
   verification: {
     google: 'aqI7WST6ju5sljPCQ1pUaQP2WCDJ9qEMCNmQV_NBPG4',
     googleAdSense: 'ca-pub-9991254411797769',
+    naver: '359c6ad181b780d69c5846ebdd1a22a52bed7ba1',
+    other: {
+      'msvalidate.01': '888F6A094FFE9B432578B0D25114C0EA',
+    },
   },
   openGraph: {
     title: '시럽급여(HoneyMoney) - 2026년 실업급여 계산기',
