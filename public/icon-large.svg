@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 배경 -->
+  <rect width="512" height="512" fill="#fffef5" rx="120"/>
+  
+  <!-- 꿀 드롭 모양 -->
+  <defs>
+    <linearGradient id="honeyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff5bf;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f4d535;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 큰 꿀 드롭 -->
+  <path d="M 256 100 C 285 85 320 100 320 150 C 320 220 256 350 256 350 C 256 350 192 220 192 150 C 192 100 227 85 256 100 Z" 
+        fill="url(#honeyGradient)" stroke="#dab800" stroke-width="4"/>
+  
+  <!-- 작은 꿀 드롭 -->
+  <path d="M 380 220 C 410 200 440 220 440 280 C 440 340 380 420 380 420 C 380 420 320 340 320 280 C 320 220 350 200 380 220 Z" 
+        fill="url(#honeyGradient)" stroke="#dab800" stroke-width="3" opacity="0.8"/>
+  
+  <!-- 꿀벌 (심플) -->
+  <circle cx="256" cy="180" r="25" fill="#f59e0b"/>
+  <ellipse cx="235" cy="180" rx="10" ry="18" fill="#ffc107"/>
+  <ellipse cx="277" cy="180" rx="10" ry="18" fill="#ffc107"/>
+</svg>
