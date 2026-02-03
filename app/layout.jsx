@@ -7,10 +7,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ko" className="scroll-smooth">
       <head>
-        {/* Google AdSense 스크립트 - ID를 실제 AdSense Client ID로 교체하세요 */}
+        {/* Google AdSense 스크립트 */}
         <script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-xxxxxxxxxxxxxxxx"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9991254411797769"
           crossOrigin="anonymous"
         />
         
